@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+*{
+    background: linear-gradient(Linear, 135deg, from hsl(0, 0%, 100%),to hsl(0, 64%, 66%));
+}
+
+.picture{
+    width: 40%;
+    height: 60vh;
+    position: absolute;
+    right: 0;
+}
+.picture2
+{
+    padding-left: 120px;
+    padding-top: 15px;
+}
+.para1
+{
+    color: hsl(0, 36%, 70%);
+    padding-left: 120px;
+    padding-top: 120px;
+    font-size: 50px;
+}
+.para2
+{
+    padding-left: 120px;
+    font-size: 50px;
+}
+.para3
+{
+    padding-left: 120px;
+    font-size: 50px;
+}
+.para4
+{
+    padding-left: 120px;
+    color: hsl(0, 36%, 70%);
+    font-family: Josefin+Sans;
+
+}
+.input1
+{
+    padding-left: 120px;
+    position: relative;
+}
+.parent
+{
+ padding-left: 20px;
+ padding-right: 220px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-radius: 30px;
+
+}
+.button
+{
+     position: absolute;
+    
+    right: 0; 
+    
+    border-radius: 30px;
+    padding: 12px 30px;
+    background: linear-gradient(to right, hsl(0, 55%, 83%) ,hsl(0, 74%, 74%));
+    font-size: 15px;
+    color: white;
+    border:  hsl(0, 74%, 74%);
+  
+    
+ } 
+::-webkit-input-placeholder
+{
+
+    color: hsl(0, 36%, 70%);
+}
